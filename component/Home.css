@@ -1,0 +1,57 @@
+.Header {
+  padding-bottom: 30px;
+  height: 450px;
+  min-width: 100%;
+  text-align: center;
+  background-image: url("../component/asset/night.png");
+  position: absolute;
+  top: 0px;
+  border: 10px solid white;
+  opacity: 0.8;
+}
+.title {
+  display: flex;
+  position: relative;
+  left: 300px;
+}
+.PersonInfo {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  width: 1600px;
+  font-size: 30px;
+
+  text-align: center;
+  margin-top: 400px;
+}
+.Skills {
+  width: 1600px;
+
+  font-size: 30px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Experience {
+  width: 1600px;
+
+  font-size: 30px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.Education {
+  width: 1600px;
+
+  font-size: 30px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.Language {
+  width: 1600px;
+
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
