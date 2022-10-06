@@ -22,13 +22,11 @@ const NavBar = ({ isActive, setIsActive }) => {
             <Nav className="me-auto">
               <Nav.Link href="#pricing">Pricing</Nav.Link>
               <NavDropdown title="Game  ">
-                <NavDropdown.Item href="/action/Blizard">
-                  Blizard
-                </NavDropdown.Item>
+                <NavDropdown.Item href="/Blizzard">Blizzard</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/action/Steam">Steam</NavDropdown.Item>
+                <NavDropdown.Item href="/Steam">Steam</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/action/Riot">Riot</NavDropdown.Item>
+                <NavDropdown.Item href="/Riot">Riot</NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Nav>
