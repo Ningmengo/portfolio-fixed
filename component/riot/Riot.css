@@ -1,9 +1,9 @@
-.Icon-Blizzard {
+.Icon-Riot {
   position: absolute;
   display: flex;
   margin-left: 40px;
   margin-top: 40px;
-  height: 100px;
+  height: 150px;
 }
 .currentPage {
   display: flex;
@@ -21,10 +21,11 @@
   background-color: antiquewhite;
   position: relative;
 }
-.Icon-ow2 {
-  height: 250px;
+.Icon-LOL {
+  height: 270px;
   align-self: center;
   margin-top: 40px;
+  border-radius: 50px;
 }
 .content {
   align-self: center;

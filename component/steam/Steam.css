@@ -1,4 +1,4 @@
-.Icon-Blizzard {
+.Icon-Steam {
   position: absolute;
   display: flex;
   margin-left: 40px;
@@ -21,7 +21,9 @@
   background-color: antiquewhite;
   position: relative;
 }
-.Icon-ow2 {
+.Icon-Terraria {
+  border-radius: 50px;
+  opacity: 80%;
   height: 250px;
   align-self: center;
   margin-top: 40px;

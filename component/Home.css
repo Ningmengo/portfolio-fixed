@@ -47,6 +47,7 @@
 
   padding-top: 30px;
   padding-bottom: 30px;
+  border-bottom: 2px solid white;
 }
 .Language {
   width: 1600px;
@@ -54,4 +55,35 @@
   font-size: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.Skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.Title {
+  border-right: 2px solid white;
+  padding-right: 45%;
+}
+.Contact {
+  min-width: 100%;
+
+  font-size: 30px;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  opacity: 60%;
+  background-color: white;
+}
+.ins:hover {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
 }

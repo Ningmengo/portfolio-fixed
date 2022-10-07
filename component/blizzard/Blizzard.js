@@ -5,7 +5,7 @@ const Blizzard = () => {
     <div className="currentPage">
       <div className="contentPage">
         <img
-          className="Icon"
+          className="Icon-Blizzard"
           alt="Icon of Blizzard"
           src="https://external-preview.redd.it/wFOBEiVQtek76NU2o8drpwweHr5H9cS8Osch9vC-yF8.png?auto=webp&s=eb0d28c5dce94d7ec322fa2a5cc34726423fe4dd"
         />

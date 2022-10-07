@@ -27,3 +27,7 @@
   padding: 0;
   transform: translateX(30px);
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}

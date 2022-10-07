@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./component/navbar/NavBar";
 import Blizzard from "./component/blizzard/Blizzard";
 import "./App.css";
+import Steam from "./component/steam/Steam";
+import Riot from "./component/riot/Riot";
 
 function App() {
   const [isActive, setIsActive] = useState(false);
@@ -15,6 +17,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home isActive={isActive} />}></Route>
           <Route exact path="/Blizzard" element={<Blizzard />}></Route>
+          <Route exact path="/Steam" element={<Steam />}></Route>
+          <Route exact path="/Riot" element={<Riot />}></Route>
         </Routes>
       </Router>
     </div>

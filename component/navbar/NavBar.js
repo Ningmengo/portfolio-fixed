@@ -20,7 +20,29 @@ const NavBar = ({ isActive, setIsActive }) => {
 
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <NavDropdown title="Contact  ">
+                <NavDropdown.Item href="/Instagram">
+                  <a
+                    href="https://www.instagram.com/koreyos220/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Instagram
+                  </a>
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="/Discord">
+                  <a
+                    href="https://discord.com/channels/%E4%B8%8D%E6%98%AFningmeng"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Discord
+                  </a>
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="/Facebook">Facebook</NavDropdown.Item>
+              </NavDropdown>
               <NavDropdown title="Game  ">
                 <NavDropdown.Item href="/Blizzard">Blizzard</NavDropdown.Item>
                 <NavDropdown.Divider />
