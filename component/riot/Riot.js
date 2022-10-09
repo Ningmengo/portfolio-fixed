@@ -1,5 +1,5 @@
 import React from "react";
-import "../riot/Riot.css";
+import "./Riot.css";
 
 const Riot = () => {
   return (

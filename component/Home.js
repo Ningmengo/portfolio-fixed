@@ -19,14 +19,16 @@ const Home = ({ isActive }) => {
         <div className="Title">Skills</div>
         <div className="Content">
           <ul>
-            <li>Language: C, C++, C#, Python, Java, Javascript, React.</li>
             <li>
-              Ability: Soldering, Code running and interacting with hardware,
-              Code debugging, Knowing how to build custom styles themes.
+              Language: C, C++, C#, Python, Java, HTML, CSS, Javascript, React.
             </li>
             <li>
-              Tool: Visual Studio 2022. VSCode, Putty, Raspberry PI, Eclipse
+              Ability: React main, designs and creates JavaScript-based
+              applications for web environment, excellent code running and
+              debugging ability, be able to build custom styles themes, REST
+              Api, Redux.
             </li>
+            <li>Tool: Visual Studio 2022. VSCode, Eclipse, Pycharm.</li>
             <li>Soft Skill: Patient, Responsible, Willing to learn.</li>
           </ul>
         </div>
@@ -44,8 +46,8 @@ const Home = ({ isActive }) => {
           <h4>January 2020 to July 2022, North York, Ontario</h4>
           <ul>
             <li>
-              Created small application for the business to better manage their
-              inventory.
+              As a part of member created web application for the business to
+              better attract customers.
             </li>
             <li>Created custom theme using CSS, bootstrap, material ui.</li>
             <li>Made rolls and sushi for customers.</li>

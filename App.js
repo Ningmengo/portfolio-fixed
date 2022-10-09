@@ -14,6 +14,7 @@ function App() {
     <div className={isActive ? "App-lightTheme" : "App"}>
       <Router>
         <NavBar isActive={isActive} setIsActive={setIsActive} />
+
         <Routes>
           <Route exact path="/" element={<Home isActive={isActive} />}></Route>
           <Route exact path="/Blizzard" element={<Blizzard />}></Route>

@@ -21,7 +21,7 @@ const NavBar = ({ isActive, setIsActive }) => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <NavDropdown title="Contact  ">
-                <NavDropdown.Item href="/Instagram">
+                <NavDropdown.Item href="/">
                   <a
                     href="https://www.instagram.com/koreyos220/"
                     target="_blank"
@@ -31,7 +31,7 @@ const NavBar = ({ isActive, setIsActive }) => {
                   </a>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/Discord">
+                <NavDropdown.Item href="/">
                   <a
                     href="https://discord.com/channels/%E4%B8%8D%E6%98%AFningmeng"
                     target="_blank"
@@ -52,7 +52,7 @@ const NavBar = ({ isActive, setIsActive }) => {
               </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link href="">Unknown</Nav.Link>
+              <Nav.Link href="/Line">Line</Nav.Link>
               <button className="btn-changeTheme" onClick={() => ChangeTheme()}>
                 Change Theme
               </button>
