@@ -3,9 +3,9 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./component/navbar/NavBar";
 import "./App.css";
-import Blizzard from "./component/blizzard/Blizzard";
-import Steam from "./component/steam/Steam";
-import Riot from "./component/riot/Riot";
+import Blizzard from "./component/gamePlat/blizzard/Blizzard";
+import Steam from "./component/gamePlat/steam/Steam";
+import Riot from "./component/gamePlat/riot/Riot";
 
 function App() {
   const [isActive, setIsActive] = useState(false);

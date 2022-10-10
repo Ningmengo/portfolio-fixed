@@ -1,5 +1,5 @@
 import React from "react";
-import "./Steam.css";
+import "../steam/Steam.css";
 
 const Steam = () => {
   return (
