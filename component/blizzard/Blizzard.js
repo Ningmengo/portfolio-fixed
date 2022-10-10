@@ -16,8 +16,8 @@ const Blizzard = () => {
 
   console.log(post);
   return (
-    <div className="currentPage">
-      <div className="contentPage">
+    <div className="currentPage-Blizzard">
+      <div className="contentPage-Blizzard">
         <img
           className="Icon-Blizzard"
           alt="Icon of Blizzard"
@@ -30,13 +30,15 @@ const Blizzard = () => {
         />
 
         <div className="content">
-          {post.map((item, index) => {
+          {post.map((item) => {
             const { id, title, url } = item;
             return (
-              <div key={index} className="Video">
-                <p>{id}</p>
-                <p>{title}</p>
-                <p>{url}</p>
+              <div key={id} className="Video">
+                <p className="title">{title}</p>
+                <iframe
+                  src={`https://www.youtube.com/embed/${url}`}
+                  title="Embedded youtube"
+                />
               </div>
             );
           })}

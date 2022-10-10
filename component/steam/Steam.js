@@ -3,8 +3,8 @@ import "./Steam.css";
 
 const Steam = () => {
   return (
-    <div className="currentPage">
-      <div className="contentPage">
+    <div className="currentPage-Steam">
+      <div className="contentPage-Steam">
         <img
           className="Icon-Steam"
           alt="Icon of Steam"

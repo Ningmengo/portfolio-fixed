@@ -2,8 +2,8 @@ import Home from "./component/Home";
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./component/navbar/NavBar";
-import Blizzard from "./component/blizzard/Blizzard";
 import "./App.css";
+import Blizzard from "./component/blizzard/Blizzard";
 import Steam from "./component/steam/Steam";
 import Riot from "./component/riot/Riot";
 

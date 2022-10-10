@@ -3,8 +3,8 @@ import "./Riot.css";
 
 const Riot = () => {
   return (
-    <div className="currentPage">
-      <div className="contentPage">
+    <div className="currentPage-Riot">
+      <div className="contentPage-Riot">
         <img
           className="Icon-Riot"
           alt="Icon of Riot"
