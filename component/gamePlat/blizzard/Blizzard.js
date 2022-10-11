@@ -34,10 +34,14 @@ const Blizzard = () => {
             const { id, title, url } = item;
             return (
               <div key={id} className="Video">
-                <p className="title">{title}</p>
+                <p id="title">{title}</p>
                 <iframe
                   src={`https://www.youtube.com/embed/${url}`}
                   title="Embedded youtube"
+                  className="EachVideo"
+                  allowfullscreen="true"
+                  showI
+                  nfo="0"
                 />
               </div>
             );
