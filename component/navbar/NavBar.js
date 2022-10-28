@@ -14,7 +14,7 @@ const NavBar = ({ isActive, setIsActive }) => {
     <div className="NavBar">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/" className="title">
+          <Navbar.Brand href="/portfolio-fixed" className="title">
             Portfolio
           </Navbar.Brand>
 
@@ -41,7 +41,15 @@ const NavBar = ({ isActive, setIsActive }) => {
                   </a>
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="/Facebook">Facebook</NavDropdown.Item>
+                <NavDropdown.Item href="/">
+                  <a
+                    href="weixin://dl/chat?Ninmengo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Wechat
+                  </a>
+                </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Game  ">
                 <NavDropdown.Item href="/Blizzard">Blizzard</NavDropdown.Item>

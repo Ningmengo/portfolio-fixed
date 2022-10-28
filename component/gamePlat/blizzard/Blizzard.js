@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 import "./Blizzard.css";
+import PostForm from "../PostForm";
 const Blizzard = () => {
   const baseURL =
     "https://my-json-server.typicode.com/Ningmengo/FakeJsonServer/posts";
@@ -47,6 +48,8 @@ const Blizzard = () => {
             );
           })}
         </div>
+
+        {/* // <PostForm></PostForm> */}
       </div>
     </div>
   );
