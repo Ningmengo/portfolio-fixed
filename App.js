@@ -19,11 +19,7 @@ function App() {
         <NavBar isActive={isActive} setIsActive={setIsActive} />
 
         <Routes>
-          <Route
-            exact
-            path="/portfolio-fixed"
-            element={<Home isActive={isActive} />}
-          ></Route>
+          <Route exact path="/" element={<Home isActive={isActive} />}></Route>
           <Route exact path="/Blizzard" element={<Blizzard />}></Route>
           <Route exact path="/Steam" element={<Steam />}></Route>
           <Route exact path="/Riot" element={<Riot />}></Route>
