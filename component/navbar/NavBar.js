@@ -60,7 +60,7 @@ const NavBar = ({ isActive, setIsActive }) => {
               </NavDropdown>
             </Nav>
             <Nav>
-              <Nav.Link href="/Line">Line</Nav.Link>
+              <Nav.Link href="/Space">Space</Nav.Link>
               <button className="btn-changeTheme" onClick={() => ChangeTheme()}>
                 Change Theme
               </button>
