@@ -5,12 +5,15 @@ import Astronaut from "../component/asset/astronaut.png";
 const Space = () => {
   return (
     <div className="wrapper">
-      <img alt="astronaut" src={Astronaut} className="astronaut" />
-      <img
-        alt="space"
-        src="https://img.freepik.com/free-vector/space-background-with-planet-landscape_107791-6146.jpg?w=1800&t=st=1667112174~exp=1667112774~hmac=2d90dbc891d70c77eb4970102336cdbef412cd74c80aac89dc14233085102c71"
-        className="space"
-      />
+      <div className="wrapper-header">
+        <img alt="astronaut" src={Astronaut} className="astronaut" />
+        <img
+          alt="space"
+          src="https://img.freepik.com/free-vector/space-background-with-planet-landscape_107791-6146.jpg?w=1800&t=st=1667112174~exp=1667112774~hmac=2d90dbc891d70c77eb4970102336cdbef412cd74c80aac89dc14233085102c71"
+          className="space"
+        />
+      </div>
+      <div className="title-EXPLORE">EXPLORE</div>
       <p>
         Paragraphs are the building blocks of papers. Many students define
         paragraphs in terms of length: a paragraph is a group of at least five

@@ -11,6 +11,7 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
+  transform-style: preserve-3d;
 }
 .space {
   position: relative;
@@ -19,13 +20,22 @@
   min-height: 100%;
   object-fit: cover;
   border: 6px solid green;
+  transform: translateZ(-10px);
 }
 .astronaut {
   position: absolute;
+  top: 150px;
   display: flex;
   z-index: 3;
 }
 .wrapper p {
   font-size: 20px;
   color: white;
+}
+.wrapper .title-EXPLORE {
+  z-index: 3;
+  font-size: 150px;
+  position: absolute;
+  align-self: center;
+  margin-top: 300px;
 }
